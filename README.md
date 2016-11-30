@@ -1,8 +1,8 @@
-# NelderMead
+# Nelder Mead
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/nelder_mead`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This is an implementation for Ruby of the Nelder-Mead method,
+which is a function optimization method.
+Nelder Mead method is also called downhill simplex method, amoeba method etc.
 
 ## Installation
 
@@ -22,7 +22,8 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+This library adds `nelder_mead` method to Proc class.
+If you know a better way, please let me know.
 
 ## Development
 
@@ -32,7 +33,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/nelder_mead.
+Bug reports and pull requests are welcome on GitHub at https://github.com/yantene/nelder_mead.
 
 
 ## License
